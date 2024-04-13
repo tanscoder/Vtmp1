@@ -1,0 +1,101 @@
+
+/* body{
+    background-att;
+    background-color: rebeccapurple;
+} */
+
+
+
+
+#office-1 {
+    background-color: blue;
+    border-radius: 50px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    /* height: auto; */
+    padding: 1.5%;
+    margin:1.5%;
+    margin-top: 10px;
+    float:left;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function:  ease;
+    transition-delay: 0s;
+    /* position: relative;
+    width:fit-content; */
+   /* border:0px solid; */
+    
+    /* align-items:centre; */
+   
+    /* Arial,Helvetica */
+/* margin: ; */
+   
+         }
+
+
+#office-1:hover{ 
+
+background-color:aqua;
+ /* rgb(230, 173, 187); */
+/* background-image; */
+border:50px;
+       }
+        /* ..................... */
+#ofc1_img{
+    /* float:right; */
+     background-color: aliceblue;
+     border-radius: 0px;
+     padding:1.5%; 
+     
+     float:left;
+
+     /* position: absolute; */
+     
+       }
+#ofc1_img:hover{
+    /* float:right; */
+     background-color: aliceblue;
+     
+     border-radius: 0px;
+     padding:1.5%; 
+
+     border:1px solid;
+     
+        }
+/* ................ */
+/* ------------------------------------------------------------------ */
+
+                                 /* office 2 */
+
+#office-2{
+  clear: both;
+  background-color: aqua;
+  font-family: Helvetica;
+   transition:background-color 0.1 ;
+
+       }
+
+#office-2:hover{
+background-color: aquamarine;
+
+}
+
+
+.ofc1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: ; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
