@@ -1,0 +1,195 @@
+
+body{
+
+   transition: all  0.3s;
+    background-color :aliceblue;
+    background-image: image-set("");
+    background: linear-gradient(white,  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb                                                                                                                                                                                                                                                                         86rfz);
+
+}
+
+body:hover{
+    background-color:white;
+}
+
+
+
+
+
+
+#search_here{
+padding:5px;
+padding-left: 3px;
+padding-right:3px;
+text-align: center;
+/* background-color: beige; */
+
+margin-left: 30%;
+margin-right: 30%;
+border-radius:40px;
+transition: background-color 0.5s linear;
+}
+#search_here:hover{
+    
+    background-color: rgb(255, 205, 243);
+
+}
+#h2_search{
+   /* text-shadow: ; */
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Welcome{
+
+    color: rebeccapurple;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* font-weight: 100; */
+    margin-left: 25%;
+    padding: 3%;
+    margin-right:25%;
+    font-size: auto;
+    text-align:center;
+    /* background-color: rgba(0, 162, 255, 0.836); */
+    border-radius:40px;
+       
+}
+
+#search_form{
+
+    padding-top:1px;
+    margin-top:1px;
+    /* margin: 5px; */
+    font-family: 'Lucida sans unicode';
+    /* 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    font-size: 20px;
+
+}
+
+#search_form:hover{
+    /* background-color:lightblue; */
+    border: 0;
+}
+
+
+#search_submit{
+    background-color: black; color:#00ff00;
+    border:0; border-radius: 10px;
+    height:35px;
+    font-size: 20px;
+    padding: 7px;
+
+    /* padding-bottom:7px; */
+    margin: 2%;
+    /* margin-right: 25%; */
+    /* margin */
+}
+
+
+
+#but1{
+background-color: black;color:#00ff00;border-radius:12px;
+border:none;
+height:35px;
+width:90px;
+cursor:zoom-in;
+margin: 10px;
+}
+
+
+#but1:hover{
+background-color: #00ff00 ; color:black ; border-radius:7px;
+border:none;
+}
+
+
+#but1:active{
+background-color: #00ff00 ; color:black ; border-radius:10px;
+opacity:0.5;
+border:none;
+}
+
+
+
+                        /* CB STYLE  */
+
+#CB{
+    padding: 30px; ;
+    background-color: lightseagreen;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-bottom: 10%; 
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px grey;
+
+}
+#CB:hover{
+    box-shadow:0 0 3px gray;
+
+}
+
+#Ab-1{
+    background-color:silver;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    padding:30px;
+    text-align: center;
+    border-radius:30px;
+    box-shadow: 0 0  5px grey;
+    transition:all 0.2s;
+}
+
+#Ab-1:hover
+{
+/* background-color: aliceblue; */
+ box-shadow:0px 0 3px ;
+}
+
+
+#Ab-2{
+    background-color: lightcoral ;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+
+    padding:30px;
+    text-align: center;
+    border-radius: 30px;
+    transition:all 0.3s;
+    box-shadow: 0px 0px 5px grey;
+
+}
+#Ab-2:hover
+{
+/* background-color: rgb(125, 157, 185); */
+box-shadow: 0 0 3px ;
+
+}
+
+#Rockplaza{
+    background-color: lightblue;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    padding:30px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px gray;
+    transition:all 0.3s;
+    
+}
+
+#Rockplaza:hover
+{
+/* background-color: rgb(176, 237, 241); */
+box-shadow: 0px 0px 3px ;
+
+}
+
+/* #blocks{
+display: flex column;
+    justify-content:flex-end;
+    
+
+} */
