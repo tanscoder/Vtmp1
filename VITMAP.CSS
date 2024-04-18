@@ -1,20 +1,29 @@
 
+:root{
+
+    --fc:blue;
+}
+
 body{
 
    transition: all  0.3s;
-    background-color :aliceblue;
-    background-image: url("Areal-View-Campus");
-                                                                                                                                                                                                                                                        86rfz);
+    background-color :whitesmoke;
+    /* rgb(51, 51, 153); */
+    background-image: image-set("");
+    background: linear-gradient(white);
+    background-image:url("Areal-View-Campus.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size:cover ;
+    backface-visibility: 10%;
+    /* background-size:initial ; */
 
+    /* 86rfz); */
+    /* #333399
+rgb(51, 51, 153) */
 }
-
-body:hover{
-    background-color:white;
-}
-
-
-
-
+             
 
 
 #search_here{
@@ -23,25 +32,35 @@ padding-left: 3px;
 padding-right:3px;
 text-align: center;
 /* background-color: beige; */
-
+;
 margin-left: 30%;
 margin-right: 30%;
 border-radius:40px;
-transition: background-color 0.5s linear;
+transition: all 0.5s linear;
+margin-bottom:100px;
+background-color: rgba(150, 150, 150, 0.5)
+/* background-color: rgb(128, 128, 128,0.5); */
+/* background-:; */
+
+
 }
 #search_here:hover{
     
-    background-color: rgb(255, 205, 243);
-
+    /* background-color: rgb(255, 205, 243); */
+    /* box-shadow: 0 0 10px rgb(107, 105, 105); */
+     /* border: green 10px; */
+     background-color: rgba(180, 180, 180, 0.5)
+    
 }
 #h2_search{
    /* text-shadow: ; */
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 #Welcome{
 
-    color: rebeccapurple;
+    color: rgba(87, 40, 133, 0.856);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     /* font-weight: 100; */
     margin-left: 25%;
@@ -51,7 +70,13 @@ transition: background-color 0.5s linear;
     text-align:center;
     /* background-color: rgba(0, 162, 255, 0.836); */
     border-radius:40px;
+    
        
+}
+#Welcome:hover{
+    
+    color:rebeccapurple;
+
 }
 
 #search_form{
@@ -87,12 +112,13 @@ transition: background-color 0.5s linear;
 
 
 #but1{
-background-color: black;color:#00ff00;border-radius:12px;
+background-color: black;color:rgba(0, 250, 225, 0.897);border-radius:12px;
 border:none;
 height:35px;
 width:90px;
 cursor:zoom-in;
 margin: 10px;
+transition: all  0.2s;
 }
 
 
@@ -108,66 +134,7 @@ opacity:0.5;
 border:none;
 }
 
-
-
-                        /* CB STYLE  */
-
-#CB{
-    padding: 30px; ;
-    background-color: lightseagreen;
-    margin-left:25%;
-    margin-right: 25%;
-    margin-bottom: 10%; 
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: 0 0 5px grey;
-
-}
-#CB:hover{
-    box-shadow:0 0 3px gray;
-
-}
-
-#Ab-1{
-    background-color:silver;
-    margin-left:25%;
-    margin-right: 25%;
-    margin-bottom: 10%;
-    padding:30px;
-    text-align: center;
-    border-radius:30px;
-    box-shadow: 0 0  5px grey;
-    transition:all 0.2s;
-}
-
-#Ab-1:hover
-{
-/* background-color: aliceblue; */
- box-shadow:0px 0 3px ;
-}
-
-
-#Ab-2{
-    background-color: lightcoral ;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-bottom: 10%;
-
-    padding:30px;
-    text-align: center;
-    border-radius: 30px;
-    transition:all 0.3s;
-    box-shadow: 0px 0px 5px grey;
-
-}
-#Ab-2:hover
-{
-/* background-color: rgb(125, 157, 185); */
-box-shadow: 0 0 3px ;
-
-}
-
-#Rockplaza{
+.blocks{
     background-color: lightblue;
     margin-right: 25%;
     margin-left: 25%;
@@ -175,21 +142,20 @@ box-shadow: 0 0 3px ;
     padding:30px;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5 grey;
     transition:all 0.3s;
-    
-}
-
-#Rockplaza:hover
-{
-/* background-color: rgb(176, 237, 241); */
-box-shadow: 0px 0px 3px ;
+    display: flex column;
+        justify-content:flex-end;
 
 }
+.blocks:hover{
+    box-shadow: 0 0 7px gray;
 
-/* #blocks{
-display: flex column;
-    justify-content:flex-end;
+}
+
+                        /* CB STYLE  */
+
+
     
 
-} */
+
