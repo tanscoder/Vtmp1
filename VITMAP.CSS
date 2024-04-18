@@ -9,7 +9,7 @@ body{
    transition: all  0.3s;
     background-color :whitesmoke;
     /* rgb(51, 51, 153); */
-    background-image: image-set("");
+    
     background: linear-gradient(white);
     background-image:url("Areal-View-Campus.jpeg") ;
     background-repeat: no-repeat;
