@@ -7,8 +7,8 @@
 
 
 
-#office-1 {
-    background-color: blue;
+#ofcs {
+    background-color: light blue;
     border-radius: 50px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
@@ -35,12 +35,12 @@
          }
 
 
-#office-1:hover{ 
+#ofcs:hover{ 
 
 background-color:aqua;
  /* rgb(230, 173, 187); */
 /* background-image; */
-border:50px;
+
        }
         /* ..................... */
 #ofc1_img{
@@ -69,25 +69,9 @@ border:50px;
 
                                  /* office 2 */
 
-#office-2{
-  clear: both;
-  background-color: aqua;
-  font-family: Helvetica;
-   transition:background-color 0.1 ;
-
-       }
-
-#office-2:hover{
-background-color: aquamarine;
-
-}
 
 
-.ofc1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    /* align-items: ; */
+
 
 
 }
