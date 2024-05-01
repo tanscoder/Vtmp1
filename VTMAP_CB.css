@@ -17,10 +17,12 @@
     margin:1.5%;
     margin-top: 10px;
     float:left;
-    transition-property: background-color;
-    transition-duration: 0.5s;
+    transition-property: background-color,0.5s ;
+/*     transition-duration: 0.5s;
     transition-timing-function:  ease;
-    transition-delay: 0s;
+    transition-delay: 0s; */
+
+    
     /* position: relative;
     width:fit-content; */
    /* border:0px solid; */
@@ -89,7 +91,24 @@ background-color: aquamarine;
 
 
 }
+ofc{
+   
+}
+imgs{
+padding:1.5%;
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:10px;
+    
 
+}
+paras{
+
+    font-size:2em;
+    font-family: "Gill sans"
+    
+    
+}
 
 
 
