@@ -4,25 +4,56 @@
     background-color: rebeccapurple;
 } */
 
+.menus1{
 
+    background-color: coral;
+    border-radius:20px ;
+    display: flex;
+    
+    justify-content:flex-end;
+    align-content: flex-end;
+    /* flex-direction: row; */
+}
+.menus2{ 
+    background-color: royalblue;
+    padding: 15px;
+     display: flex;
+border-radius: 20px;
 
+    justify-content:space-around !important;
+    /* flex-direction: ; */
+    align-content: flex-end;
+    flex-grow: 1;
+ }
+.menu{ 
 
-#ofcs {
-    background-color: light blue;
+/* margin: 10px; */
+padding:20%;
+border-radius: 10px;
+height: 1em;
+width : 10em;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+
+.ofcs {
+    background-color: blue;
     border-radius: 50px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+
     /* height: auto; */
     padding: 1.5%;
-    margin:1.5%;
-    margin-top: 10px;
+    /* margin-left:23%;
+    margin-right:26%;
+    margin-top: 20px; */
     float:left;
-    transition-property: background-color,0.5s ;
-/*     transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-duration: 0.7s;
     transition-timing-function:  ease;
-    transition-delay: 0s; */
-
-    
+    transition-delay: 0s;
     /* position: relative;
     width:fit-content; */
    /* border:0px solid; */
@@ -35,70 +66,62 @@
          }
 
 
-#ofcs:hover{ 
+.ofcs:hover{ 
 
 background-color:aqua;
  /* rgb(230, 173, 187); */
 /* background-image; */
-
+border:50px;
        }
         /* ..................... */
-#ofc1_img{
-    /* float:right; */
-     background-color: aliceblue;
-     border-radius: 0px;
-     padding:1.5%; 
-     
-     float:left;
 
-     /* position: absolute; */
-     
-       }
-#ofc1_img:hover{
+.imgs{
+border-radius: 10px;
+width: 50%;
+
+}
+
+.imgs:hover{
     /* float:right; */
      background-color: aliceblue;
      
      border-radius: 0px;
      padding:1.5%; 
 
-     border:1px solid;
+     /* border:1px solid; */
      
         }
-/* ................ */
-/* ------------------------------------------------------------------ */
-
-                                 /* office 2 */
 
 
 
 
+#office-1{
+
+    margin-left: 23%;
+     margin-right: 26%;
+     margin:15px;
+}
+#office-2{
+
+    margin-right: 26%;
+    margin-left: 23%;
+    margin: 15px;
+
+}
+
+#vitHeadLogo{ 
+size: 19px;
 
 
 }
-ofc{
-   
-}
-imgs{
-padding:1.5%;
-    display:flex;
-    justify-content:flex-end;
-    margin-bottom:10px;
-    
+
+
+img{
+
+border-radius: 10px;
+
 
 }
-paras{
-
-    font-size:2em;
-    font-family: "Gill sans"
-    
-    
-}
-
-
-
-
-
-
 
 
 
