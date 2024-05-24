@@ -1,3 +1,4 @@
+window.onload= function{ 
 but1=document.getElementById("but1");
 output=document.getElementById("output");
 n=document.getElementById("input1");
@@ -18,4 +19,4 @@ else{
    console.log("value of N is not 10")
    console.log("value of n int what i expected")
 }}
-
+}
