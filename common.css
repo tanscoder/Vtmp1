@@ -1,0 +1,63 @@
+body { 
+    background-color: #333;
+}
+
+nav.naviBar { 
+    font-family: Calibri, 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
+    color: #333;
+    padding: 15px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Add background color */
+}
+
+.vitlogo { 
+    display: flex;
+    justify-content: center;
+}
+
+.vitlogo-img { 
+    height: 50px;
+}
+
+.navlinks { 
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks li { 
+    background-color: rgb(200, 100, 255);
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.navlinks a { 
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   font-size: 14px;
+   transition: background-color 0.3s ease;
+}
+
+.navlinks a:hover { 
+    background-color: rgb(250, 90, 214);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navlinks { 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navlinks li { 
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
