@@ -4,28 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="VTMAP_CB.css">
+    <link rel = "stylesheet" href="common(nav).css">
+    <script src="common.js"></script>
     <title>VITMAP-CB</title>
-    <link rel="icon" href="Areal-View-Campus.jpeg" type="image/x-icon">
+    <link rel="icon" href="wirelogos/vitmapwirelogo.webp" type="image/x-icon">
 </head>
 <body>
 
-   <div class="menus1"><div class="menus2"> 
-    <div class="headBanner"><img id="vitHeadBanner" width="300px" height="100px" src="VIT_AP_logo.png" alt="just the vit logo"></div>
-    <a href="index.html"> <div class="menu" id ="menu1"><h2>Home</h2></div></a>
-    <a href="VTMAP_Ab-1.html"> <div class="menu" id ="menu2"><h2>Ab-1</h2></div></a>  
-    <a href="VTMAP_Ab-2.html"><div class="menu"  id="menu3"><h2>Ab-2</h2></div></a>
-</div></div>
+<!-- Navigation Bar  (by chatGPT) -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="wirelogos/viwikytwirelogo(black)1.webp" alt="Logo" class="logo-img">
+    </div>
+    
+    <!-- burger menu -->
+
+    <div class="menu-icon" id="menu-icon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="VTMAP_Ab-1.html">Ab-1</a></li>
+        <li><a href="VTMAP_Ab-2.html">Ab-2</a></li>
+        
+    </ul>
+</nav>
+
     
                                     <!-- office-1 -->
 
    <div id="office-1" class="ofcs" >
     
-    <h3>Office 1</h3>
-    <h4>345</h4>
-        <div class="paras"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+       <div> <h3>Office 1</h3>
+        <h4>345</h4>
+        <div class="paras">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Officia eveniet et perspiciatis eum facilis animi eligendi corporis
             velit incidunt dolorem consequuntur, ab nobis mollitia rem modi? Quasi
-            officia blanditiis deleniti.</p></div>
+            officia blanditiis deleniti.
+            </p>
+        </div></div>
 
         <div class="imgs" id="ofc1_img">
             <img  src="office1.jpeg" width="550" height="250">
@@ -37,14 +58,14 @@
                                    <!-- office-2 -->
 
 <div id="office-2" class="ofcs">
-      <h3>Office 2</h3>
+     <div> <h3>Office 2</h3>
       <h4>354</h4>
     <div class="paras">    
      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
      Nostrum quibusdam sequi voluptatum velit perferendis beatae vitae 
      fuga expedita unde incidunt eos nemo, non sunt, molestiae 
      doloremque quisquam odio ipsa exercitationem?</p>
-    </div>
+    </div></div>
 
     <div class="imgs">
         <img src="office1.jpeg" width="550" height="250">
@@ -52,8 +73,23 @@
 
 </div> 
 
-<table1>
 
+<div id="office-3" class="ofcs">
+    <div id="office-3(1)" class=""> <h3>Office 3</h3>
+     <h4>357</h4>
+   <div class="paras">    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum quibusdam sequi voluptatum no velit perferendis beatae vitae 
+    fuga expedita unde incidunt eos nemo, non sunt, molestiae 
+    doloremque quisquam odio ipsa exercitationem?</p>
+   </div></div>
+    
+   <div class="imgs">
+       <img src="office1.jpeg" width="550" height="250">
+   </div>
+</div> 
+
+<table1>
     <table bgcolor="black" width="1000" height="700">
         <tr width="100px" >
                <th width="70px" bgcolor="#68f568" border-radius="7px">place/location</th>
@@ -64,7 +100,5 @@
         <tr width="100px" bgcolor="white"><th>office 3</th><th>333</th></tr>
         <tr width="100px" bgcolor="white"><th>office 4</th><th>333</th></tr>
     </table>
-
-
 </body>
 </html>
