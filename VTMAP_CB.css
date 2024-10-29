@@ -1,9 +1,4 @@
 
-/* body{
-    background-att;
-    background-color: rebeccapurple;
-} */
-
 .menus1{
 
     background-color: coral;
@@ -12,7 +7,7 @@
     
     justify-content:flex-end;
     align-content: flex-end;
-    /* flex-direction: row; */
+    
 }
 .menus2{ 
     background-color: royalblue;
@@ -21,13 +16,12 @@
 border-radius: 20px;
 
     justify-content:space-around !important;
-    /* flex-direction: ; */
+    
     align-content: flex-end;
     flex-grow: 1;
  }
 .menu{ 
 
-/* margin: 10px; */
 padding:20%;
 border-radius: 10px;
 height: 1em;
@@ -39,29 +33,18 @@ width : 10em;
 }
 
 .ofcs {
-    background-color: blue;
-    border-radius: 50px ;
+    background-color : pink;
+    border-radius: 0px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 
-    /* height: auto; */
     padding: 1.5%;
-    /* margin-left:23%;
-    margin-right:26%;
-    margin-top: 20px; */
     float:left;
-    transition-property: background-color;
-    transition-duration: 0.7s;
-    transition-timing-function:  ease;
-    transition-delay: 0s;
-    /* position: relative;
-    width:fit-content; */
-   /* border:0px solid; */
-    
-    /* align-items:centre; */
-   
-    /* Arial,Helvetica */
-/* margin: ; */
+    transition: background-color 0.7s ease;
+    display: flex; 
+    justify-content: space;
+
+    margin: 15px;
    
          }
 
@@ -69,31 +52,15 @@ width : 10em;
 .ofcs:hover{ 
 
 background-color:aqua;
- /* rgb(230, 173, 187); */
-/* background-image; */
-border:50px;
+
        }
-        /* ..................... */
+        
 
-.imgs{
-border-radius: 10px;
-width: 50%;
 
+.imgs img {
+border-radius: 15px;
+padding:1.5%; 
 }
-
-.imgs:hover{
-    /* float:right; */
-     background-color: aliceblue;
-     
-     border-radius: 0px;
-     padding:1.5%; 
-
-     /* border:1px solid; */
-     
-        }
-
-
-
 
 #office-1{
 
@@ -116,12 +83,28 @@ size: 19px;
 }
 
 
-img{
-
-border-radius: 10px;
-
-
+a{ 
+    text-decoration: none;
 }
 
 
-
+@media (max-width: 768px) {
+    /* .options2 {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .menu {
+        margin-bottom: 1rem;
+    } */
+  
+    .divcontent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .imgp {
+        margin-top: 1rem;
+    }
+  }
+  
