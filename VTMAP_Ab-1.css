@@ -1,121 +1,170 @@
-body{
-
-    background-color: white;
-
-
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* 1== outer div */
-
-
-.Welcome {
-            
-  padding: 1.5%;
-  text-align: center; 
-  font-family: 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size : 25px;
-  color:rgb(22, 20, 20);
-margin:1.5%;
-margin-bottom:100px;
-  
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
 }
 
-
-.options1{
-  display:flex;
-  justify-content: flex-end;
-  
-  /* background-color: ; */
-} 
-/*  2== inner  div */
- .options2{
-padding: 10px;
-/* padding-left: 50%; */
-margin-top:30px;
-margin-bottom: 50px;
-border-radius: 40px;
-
-   /* text-align: center; */
-background-color: orange;
-width:50%;
-display: flex;
-flex-direction:row;
-justify-content:space-around;
-/* justify-content: S; */
-
- }
-.tb_ops{
-
-   background-color: aqua;
-   padding:10px;
-   padding-bottom:20px;
-   border-radius:20px;
-   width:150px;
-   height: 50px;
-   margin:50px;
-  /* justify-content: flex-end; */
-   
-   text-align: center;
-   font-size: 50px;
-   
-}  
-
-
-/* style="border-radius: 30px;box-shadow:0 0 5px grey ;" */
-/* style="border-radius: 30px;box-shadow:0 0 5px grey ;" */
-
-
-.Ab-1{
-  background-color: whitesmoke;
-  padding:30px;
-  margin:15px;
-  }
-
-.ofcs{
-    background-color : rgba(150,450,500,0.4);
-    border-radius: 30px;
-    padding: 1.5%;
-    margin:2%;
-    /* display: flex;
-    justify-content: ; */
-   font-family:  Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-   font-size: 2em;
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
-.divcontent{
+
+/* Navigation */
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
-  justify-content: end;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
-.paras{
-
-  /* background-color: blue; */
-  text-wrap: wrap;
-  font-size: 100px;
-  }
-
-  p{
-    font-size: 20px;
-    /* float: left; */
-    /* font-family: ; */
-      text-wrap: wrap;
-  
-  }
-
-.imgs{
-    
-    border-radius: 10%;
-    display: flex;
-    justify-content: space-around;
-    padding: 1.5%;
-    margin: 1.5%;
-    
+.logo-img {
+  height: 40px;
+  width: auto;
 }
 
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
 
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
 
+.nav-link:hover {
+  color: #007bff;
+}
 
+/* Menu Icon */
+.menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: transform 0.3s ease;
+}
 
+/* Office Cards */
+.offices-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
 
+.office-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.office-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.office-content {
+  padding: 1.5rem;
+}
+
+.office-content h2 {
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.office-content h3 {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.office-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+}
+
+.location-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.location-table th,
+.location-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.location-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.location-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      flex-direction: column;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .offices-container {
+      grid-template-columns: 1fr;
+  }
+} 
